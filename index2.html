@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>The Therapy Space</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        * {
+          text-decoration: none;
+        }
+        
+        .navbar {
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          /* padding: 20px; */
+        }
+        
+        .navdiv {
+          display: flex;
+          justify-content: space-between;
+          
+          
+          align-items: center;
+        }
+        
+        .logo img {
+          height: 74px;
+        }
+        
+        .logoo ul {
+          list-style-type: none;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          font-family: "Montserrat";
+          gap: 20px;
+        }
+        
+        .logoo li a {
+          color: black;
+          font-size: 14px;
+          font-family: "Montserrat";
+          font-weight: bold;
+        }
+        
+        .btn {
+          color: white;
+          background-color: #38ABE7;
+          border-radius: 36px;
+          box-shadow: 3px 4px rgb(89, 155, 163);
+          padding: 10px 20px;
+          cursor: pointer;
+          font-size: 11px;
+          font-family: "Montserrat";
+        }
+        
+        .carousel-caption {
+          position: absolute;
+          top: 407px;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: white;
+          width: 100%;
+        }
+        
+        .carousel-caption h2 {
+          font-family: "Montserrat";
+          font-size: 3rem;
+          font-weight: bold;
+        }
+        
+        .carousel-caption p {
+          font-family: "Montserrat";
+          text-transform: uppercase;
+          font-size: 1.2rem;
+          margin: -0.5rem 0;
+        }
+        
+        .checked {
+          color: orange;
+        }
+        
+        .container {
+          max-width: 1140px;
+          margin: auto;
+          background-color: white;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding: 70px;
+        }
+        
+        .item-header {
+          background-color: #38ABE7;
+          color: white;
+          font-weight: bold;
+          font-size: 1rem;
+          height: 4rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 20px;
+        }
+        
+        .item-content {
+          color: #555555;
+          font-size: 12px;
+          padding: 20px;
+          border: 1px solid #b6b2b2;
+        }
+        
+        .nav-button {
+          background-color: lightgrey;
+          color: white;
+          border: 0px;
+          opacity: 0.75;
+          padding: 10px;
+          font-size: 23px;
+          cursor: pointer;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .left-button {
+          margin-right: 120px;
+        }
+        
+        .right-button {
+          margin-left: 960px;
+        }
+        </style>
+
+</head>
+<body>
+<div class="onee">
+<div style="display: flex; max-width: 1140px; margin: auto; width: 100%; padding: 0px 53px;">
+    <h6><i class="fas fa-phone"></i> CALL NOW 561-676-3393 |</h6>
+    <h5><i class="fas fa-envelope"></i> LearnTheTherapySpace.com</h5>
+</div>
+</div>
+<div class="navbar">
+<div class="navdiv">
+<div class="logo" >
+    <img src="images/logo.png" height="90px">
+</div>
+<div class="logoo" >
+    <ul style="padding-left: 80px; margin-top: 2px;">
+    <li><a href="#">Specialties</a><i class="fa fa-angle-down" style="margin-left: 6px;"></i></li>
+    <li><a href="#">Approaches</a><i class="fa fa-angle-down" style="margin-left: 6px;"></i></li>
+    <li><a href="#">About</a><i class="fa fa-angle-down" style="margin-left: 6px;"></i></li>
+    <li><a href="#">Online Therapy</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#" style="
+        padding-right: 18px;">Contact</a></li>
+    <button class="btn my-2 my-sm-0" type="submit" style="color: white; background-color: #38ABE7; border-radius: 36px; box-shadow: 3px 4px rgb(89, 155, 163); border: #38ABE7; height: 51px; width: 206px;">
+        SCHEDULE FREE 15 MIN CALL
+    </button>
+    </ul>
+    </div>
+
+</div>
+</div>
+
+<!--div class="navbar">
+<div class="navi" style="margin-left: 117px;border: 1px solid black;" >
+<img src="images/logo.png">
+</div>
+<div class="navitems">
+    <ul>
+        <li>Specialties</li>
+        <li>Approaches</li>
+        <li>About</li>
+        <li>Online Therapy</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        
+        <button class="btn my-2 my-sm-0" type="submit" style="color: white; background-color: #38ABE7; border-radius: 20px; box-shadow: 3px 4px rgb(89, 155, 163); height: 3rem;">
+            SCHEDULE FREE 15 MIN CALL
+        </button>
+    </ul>
+    </div>
+
+<---div---->
+<!--Crousel section-->
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/banner.png" alt="First slide" style="height: 29rem; width: 100%;">
+
+            <div class="carousel-caption">
+                <!-- Main Heading -->
+                <h2>
+                    A Space of 
+                    <span style="color: #38ABE7;">Healing</span> & 
+                    <span style="color: #38ABE7;">Transformation</span>
+                </h2>
+                <!-- Backward Button (before heading) -->
+
+                <button type="button" class="nav-button left-button">&lt;</button>
+                <!-- Forward Button (after heading) -->
+                <button type="button" class="nav-button right-button">&gt;</button>
+                
+                <!-- Paragraph and Other Content -->
+                <p>Suspendisse magna nibh, molestie vitae interdum commodo, eleifend ac justo</p>
+                <br><br>
+                
+                <!-- Call-to-Action Button -->
+                <button class="btn my-2 my-sm-0" type="submit" style="color: white; background-color: #38ABE7; border-radius: 20px; box-shadow: 3px 4px rgb(89, 155, 163); height: 3rem; border: #38ABE7; " >
+                    SCHEDULE FREE 15 MIN CALL
+                </button>
+                <br><br><br>
+                
+                <!-- Star Rating and Reviews -->
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="heading" style="font-weight: bold;">4.7/5 RATING</span>
+                <p style="font-size: 10px; font-weight: bold;">(BASED ON GOOGLE REVIEWS)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Carousel section Ends Here-->
+
+<!--Crousel section Ends Here-->
+<!--About Section Starts Here-->
+<div class="container">
+    <div class="item item-header">
+        Read about my Background & Story
+        <i class="fas fa-caret-down"></i>
+    </div>
+
+    <div class="item item-content" style="border-left: 1px solid rgb(182, 178, 178); border-right: 1px solid rgb(182, 178, 178); border-bottom: 1px solid rgb(182, 178, 178); margin-top: -2%;">
+        <p>Suspendisse magna nibh, molestie vitae interdum commodo, eleifend ac justo. In hac habitasse platea dictumst. Praesent semper, libero sed accumsan consectetur, orci nisl consectetur nisi, a auctor erat magna a justo. Cras eu ullamcorper nisl. Duis vulputate rutrum purus sit amet faucibus. Integer ornare eros id massa tempor tempor. Nulla metus tortor, tincidunt at pulvinar ac, sollicitudin id dui. Donec sed ipsum eu massa pellentesque ullamcorper a eget lacus. Sed suscipit adipiscing ornare. Nam rhoncus nibh in purus feugiat pulvinar.</p>
+    
+        <p>Aenean mi erat, malesuada ut pharetra id, egestas a lectus. Vivamus et diam mi. Morbi orci leo, mollis id consequat nec, consequat a magna. Fusce viverra leo non erat posuere a ullamcorper velit rhoncus. Pellentesque consectetur tincidunt venenatis. Mauris lacinia aliquet sem sed consectetur. Sed dui urna, semper ut pharetra ultricies, vehicula nec massa. Sed sed augue velit. Nullam sit amet arcu vel urna convallis lobortis. Etiam a odio felis. Phasellus augue urna, lacinia eget rutrum vitae, euismod nec odio.</p>
+    
+        <p>Etiam quis est magna, ut tempus erat. Mauris lacinia mollis malesuada. Nam malesuada, lectus non sollicitudin eleifend, sem leo iaculis lorem, nec sodales mi nulla eu enim. Pellentesque bibendum pretium bibendum. Fusce tortor leo, elementum ut sagittis eu, facilisis ac magna. Morbi sed arcu nisl, ac aliquet nibh. Proin placerat, diam ultrices molestie ullamcorper, massa turpis aliquet libero, in vehicula lacus ante vehicula augue. Integer molestie posuere tortor eget feugiat. Duis a dolor vulputate risus commodo gravida ornare a orci. Praesent elit mi, tempus quis convallis vel, placerat non libero.</p>
+    </div>
+    
+
+    <div class="item item-header">
+        Read about my Services
+        <i class="fas fa-caret-down"></i>
+    </div>
+    
+    <div class="item item-header">
+        Read about my Philosophy & Approach
+        <i class="fas fa-caret-down"></i>
+    </div>
+</div>
+<!--About Section Ends Here-->
+
+
+<div class="testimonal " >
+
+<p style="padding-top: 22px;">Our Happy Patient</p>
+<h4>Testimonials</h4>
+<hr style="width: 80px; margin:auto;">
+<div style="align-items: center; justify-content: center; display: flex; gap: 136px; height: auto; width: auto; padding: 46px;">
+<div class="testimonial11 arrow-bottom">
+    <div class="child">
+        <img src="images/CARD11.png" alt="User Image">
+        <p>John Doe</p>
+        <div class="rating" style="margin-top: 29px; margin-left: -78px;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <p class="review-date" style="margin-top: 68px; margin-left: -92px;"> April 6, 2019 via Google</p>
+        <img src="images/map.png" class="map-icon" alt="Location" style="height: 25px; width: 29px; margin-top: -12px;">
+    </div>
+    <div class="child1">
+       <span>“Aenean mi erat, malesuada ut pharetra id, egestas a lectus. Vivamus et diam mi. Morbi orci leo, mollis id consequat nec, consequat a magna. Fusce viverra leo non erat posuere a ullamcorper velit rhoncus. Pellentesque consectetur tincidunt venenatis. Mauris lacinia aliquet sem sed consectetur. Sed dui urna, semper ut pharetra ultricies.”</span>
+    </div>   
+</div>
+
+<div class="testimonial11 arrow-bottom">
+    <div class="child">
+        <img src="images/CARD11.png" alt="User Image">
+        <p>John Doe</p>
+        <div class="rating" style="margin-top: 29px; margin-left: -78px;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <p class="review-date" style="margin-top: 68px; margin-left: -92px;">April 6, 2019 via Google</p>
+        <img src="images/map.png" class="map-icon" alt="Location" style="height: 25px; width: 29px; margin-top: -12px;">
+    </div>
+    <div class="child1">
+       <span>“Aenean mi erat, malesuada ut pharetra id, egestas a lectus. Vivamus et diam mi. Morbi orci leo, mollis id consequat nec, consequat a magna. Fusce viverra leo non erat posuere a ullamcorper velit rhoncus. Pellentesque consectetur tincidunt venenatis. Mauris lacinia aliquet sem sed consectetur. Sed dui urna, semper ut pharetra ultricies.”</span>
+    </div>   
+</div>
+
+</div>
+</div>
+<div class="cat">
+    <img src="images/logoflower.png" alt="Logo">
+    <p class="cat-description">Suspendisse magna nibh, molestie vitae interdum commodo.</p>
+    <button class="btn my-2 my-sm-0" type="submit" style="color: white; background-color: #38ABE7; border-radius: 20px; box-shadow: 3px 4px rgb(89, 155, 163); height: 3rem; border: #38ABE7;">
+        SCHEDULE FREE 15 MIN CALL
+    </button>
+</div>
+
+  
+<div class="services-section">
+    <h4>What We Provide</h4>
+    <p>Our Services</p>
+    <hr>
+
+    <div class="cards-container">
+        <!-- Left navigation button before the first card -->
+        <button type="button" class="nav-button">&lt;</button>
+
+        <!-- Cards section -->
+        <div class="cards">
+            <div class="card1">
+                <img src="images/CARD1.png" alt="Avatar">
+                <div class="container1">
+                    <h4><b style="color: black;">INDIVIDUAL COUNSELING</b></h4>
+                    <hr style="margin-top: 15px;">
+                    <p style="font-size: 12px; margin-top: 8px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare scelerisque era’t vel rutrum. Duis sem enim, tempor sed gravida imperdiet.</p>
+                    <button>Read More >></button>
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="images/CARD2.png" alt="Avatar">
+                <div class="container1">
+                    <h4><b style="color: black;">ANXIETY TREATMENT</b></h4>
+                    <hr style="margin-top: 15px;">
+                    <p style="font-size: 12px; margin-top: 8px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare scelerisque era’t vel rutrum. Duis sem enim, tempor sed gravida imperdiet.</p>
+                    <button>Read More >></button>
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="images/CARD3.png" alt="Avatar">
+                <div class="container1">
+                    <h4><b style="color: black;">DEPRESSION TREATMENT</b></h4>
+                    <hr style="margin-top: 15px;">
+                    <p style="font-size: 12px; margin-top: 8px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare scelerisque era’t vel rutrum. Duis sem enim, tempor sed gravida imperdiet.</p>
+                    <button>Read More >></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right navigation button after the last card -->
+        <button type="button" class="nav-button">&gt;</button>
+    </div>
+    <img src="images/sign2.png" style="padding: 14px 2px 1px 0px; ">
+</div>
+
+
+</div>
+<!---FOOTER SECTION-->
+
+<div class="footer" style="font-family: Montserrat;">
+    <div class="foot">
+<div class="parent">
+    <div>
+<img src="images/footerlogo.png">
+<ul>
+    <li>SPECIALTIES &nbsp;|</li>
+    <li>APPROACHES &nbsp;|</li>
+    <li>ABOUT &nbsp;|</li>
+    <li>ONLINE THERAPY &nbsp;|</li>
+    <li>BLOG &nbsp;|</li>
+    <li>CONTACT</li>
+    </ul>
+    <img src="images/footerlogos.png" style="margin-top: -14px; margin-left: -60px; height: 110px;">
+
+
+
+</div>
+</div>
+<div class="child">
+<h4>CONTACT US</h4>
+<ul style="padding: 0px 28px;">
+    <li><i class="fa fa-phone" aria-hidden="true" style="color: #38ABE7; margin-right: 2px;"></i>561-676-3393</li>
+    <li><i class="fa fa-envelope" aria-hidden="true" style="color: #38ABE7;margin-right: 2px;"></i>LearnTheTherapySpace</li>
+    <li><i class="fa fa-map-marker" aria-hidden="true" style="color: #38ABE7;margin-right: 2px;"></i>205 NE 5TH Terrace Delay Beach FL 33444</li>
+</ul>
+
+<div style=" margin-top: 35px; margin-left: 47px;">
+    <a href="https://www.facebook.com" target="_blank" style="display: inline-block; background-color: #477187; color: #194D69; padding: 8px; margin: 0 5px;  text-decoration: none;">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" style="display: inline-block; background-color: #477187; color: #194D69; padding: 8px; margin: 0 5px;  text-decoration: none;">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+    </a>
+    <a href="https://plus.google.com" target="_blank" style="display: inline-block; background-color: #477187; color: #194D69; padding: 8px; margin: 0 5px;  text-decoration: none;">
+        <i class="fa fa-google" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.pinterest.com" target="_blank" style="display: inline-block; background-color: #477187; color: #194D69; padding: 8px; margin: 0 5px;  text-decoration: none;">
+        <i class="fa fa-pinterest" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" style="display: inline-block; background-color: #477187; color: #194D69; padding: 8px; margin: 0 5px;  text-decoration: none;">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+<div class="copyright">
+    <h6>Copyright &copy; The Therapy Space | All RIGHTS RESERVED | TERMS & CONDITIONS | PRIVACY POLICY</h6>
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
